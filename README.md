@@ -74,3 +74,33 @@ response = requests.post('https://testnet-pay.crypt.bot/api/createInvoice', ...)
 ```python
 API_TOKEN = 'testnet:123456:ABC...DEF'  # Тестовый токен из @CryptoTestnetBot
 ```
+
+### Установка необходимых библиотек
+
+Для работы с данным кодом вам нужно установить несколько библиотек. Вот команды для их установки:
+
+```bash
+pip install telebot requests
+```
+
+- **`telebot`**: Библиотека для работы с Telegram Bot API.
+- **`requests`**: Библиотека для выполнения HTTP-запросов к CryptoPay API.
+
+---
+
+### Документация и ссылки
+
+1. **CryptoPay API**:
+   - Официальная документация: [CryptoPay API Docs](https://help.crypt.bot/crypto-pay-api)
+   - Репозиторий с примерами: [Foile/crypto-pay-api](https://github.com/Foile/crypto-pay-api)
+   - В репозитории вы найдете примеры использования API, включая создание счетов, проверку платежей и работу с вебхуками.
+
+2. **Telegram Bot API**:
+   - Официальная документация: [Telegram Bot API](https://core.telegram.org/bots/api)
+   - Библиотека `pyTelegramBotAPI`: [pyTelegramBotAPI Docs](https://github.com/eternnoir/pyTelegramBotAPI)
+
+---
+
+### Пример использования CryptoPay API
+
+Вот пример кода для создания счета и проверки платежа, основанный на репозитории [Foile/crypto-pay-api](https://github.com/Foile/crypto-pay-api):
